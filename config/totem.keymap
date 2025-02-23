@@ -52,10 +52,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-           &kp Q  &kp W  &kp E     &kp R            &kp T               &kp Y        &kp U        &kp I       &kp O    &kp P
-           &kp A  &kp S  &kp D     &kp F            &kp G               &kp H        &kp J        &kp K       &kp L    &kp SEMICOLON
-&kp GRAVE  &kp Z  &kp X  &kp C     &kp V            &kp B               &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH       &kp BSLH
-                         &kp LGUI  &lt 1 BACKSPACE  &lt 1 LEFT_SHIFT    &lt 2 ENTER  &lt 2 SPACE  &kp ESCAPE
+         &kp Q  &kp W  &kp E     &kp R            &kp T               &kp Y        &kp U        &kp I       &kp O    &kp P
+         &kp A  &kp S  &kp D     &kp F            &kp G               &kp H        &kp J        &kp K       &kp L    &kp SEMICOLON
+&kp TAB  &kp Z  &kp X  &kp C     &kp V            &kp B               &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH       &kp BSLH
+                       &sk LGUI  &lt 1 BACKSPACE  &lt 1 LEFT_SHIFT    &lt 2 ENTER  &lt 2 SPACE  &kp ESCAPE
             >;
         };
 
@@ -78,10 +78,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-                &none   &kp LA(LEFT)  &kp UP    &kp LA(RIGHT)  &kp LBRC    &kp RBRC  &kp KP_N1        &kp LS(KP_N2)  &kp KP_N3  &kp KP_PLUS
-                &trans  &kp LEFT      &kp DOWN  &kp RIGHT      &kp LBKT    &kp RBKT  &kp KP_N4        &kp KP_N5      &kp KP_N6  &kp KP_MINUS
-&kp UNDERSCORE  &none   &kp PG_UP     &kp CAPS  &kp PG_DN      &kp LPAR    &kp RPAR  &kp KP_N7        &kp KP_N8      &kp KP_N9  &kp KP_MULTIPLY  &kp KP_EQUAL
-                                      &trans    &trans         &trans      &none     &kp KP_NUMBER_0  &trans
+        &kp HOME   &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_UP    &kp LG(LS(O))  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))  &trans
+        &kp END    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LS(LG(F))  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))        &trans
+&trans  &kp LG(Z)  &kp LG(X)     &kp LG(C)  &kp LG(V)      &trans       &trans         &kp K_MUTE       &trans                &trans                &trans  &kp LG(LC(Q))
+                                 &trans     &trans         &trans       &none          &kp KP_NUMBER_0  &trans
             >;
         };
 
