@@ -54,7 +54,7 @@
             bindings = <
          &kp Q  &kp W  &kp E     &kp R            &kp T               &kp Y        &kp U        &kp I       &kp O    &kp P
          &kp A  &kp S  &kp D     &kp F            &kp G               &kp H        &kp J        &kp K       &kp L    &kp SEMICOLON
-&kp TAB  &kp Z  &kp X  &kp C     &kp V            &kp B               &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH       &kp BSLH
+&kp TAB  &kp Z  &kp X  &kp C     &kp V            &kp B               &kp N        &kp M        &kp COMMA   &kp DOT  &kp FSLH       &kp RIGHT_BRACKET
                        &sk LGUI  &lt 1 BACKSPACE  &lt 1 LEFT_SHIFT    &lt 2 ENTER  &lt 2 SPACE  &kp ESCAPE
             >;
         };
@@ -81,7 +81,7 @@
         &kp HOME   &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_UP    &kp LG(LS(O))  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))  &trans
         &kp END    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LS(LG(F))  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))        &trans
 &trans  &kp LG(Z)  &kp LG(X)     &kp LG(C)  &kp LG(V)      &trans       &trans         &kp K_MUTE       &trans                &trans                &trans  &kp LG(LC(Q))
-                                 &trans     &trans         &trans       &none          &kp KP_NUMBER_0  &trans
+                                 &trans     &trans         &trans       &none          &trans           &trans
             >;
         };
 
