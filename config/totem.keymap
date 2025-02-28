@@ -78,10 +78,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp HOME   &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)  &kp PG_UP    &kp LG(LS(O))  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))   &trans
-        &kp END    &kp LEFT      &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LS(LG(F))  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))         &trans
-&trans  &kp LG(Z)  &kp LG(X)     &kp LG(C)  &kp LG(V)      &trans       &trans         &kp K_MUTE       &kp LC(LA(LS(LEFT)))  &kp LA(LC(LS(RIGHT)))  &trans  &kp LG(LC(Q))
-                                 &trans     &trans         &trans       &none          &trans           &trans
+        &kp HOME       &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)   &kp PG_UP    &kp LG(LS(S))  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))   &trans
+        &kp END        &kp LEFT      &kp DOWN   &kp RIGHT       &kp PG_DN    &kp LS(LG(Y))  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))         &trans
+&trans  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans       &trans         &kp K_MUTE       &kp LC(LA(LS(LEFT)))  &kp LA(LC(LS(RIGHT)))  &trans  &kp LG(LC(X))
+                                     &trans     &trans          &trans       &none          &trans           &trans
             >;
         };
 
