@@ -79,10 +79,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &kp HOME       &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)   &bt BT_SEL 0    &kp LG(LS(S))  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))   &trans
-        &kp END        &kp LEFT      &kp DOWN   &kp RIGHT       &bt BT_SEL 1    &kp LS(LG(Y))  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))         &trans
-&trans  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans          &trans         &kp K_MUTE       &kp LC(LA(LS(LEFT)))  &kp LA(LC(LS(RIGHT)))  &trans  &kp LG(LC(X))
-                                     &trans     &trans          &trans          &none          &trans           &trans
+        &trans         &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)   &trans    &trans  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))  &bt BT_SEL 0
+        &trans         &kp LEFT      &kp DOWN   &kp RIGHT       &trans    &trans  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))        &bt BT_SEL 1
+&trans  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans    &trans  &kp K_MUTE       &trans                &trans                &trans        &kp LG(LC(X))
+                                     &trans     &trans          &trans    &none   &trans           &trans
             >;
         };
 
