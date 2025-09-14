@@ -81,7 +81,7 @@
             bindings = <
         &trans         &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)   &trans    &trans  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))  &bt BT_SEL 0
         &trans         &kp LEFT      &kp DOWN   &kp RIGHT       &trans    &trans  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))        &bt BT_SEL 1
-&trans  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans    &trans  &kp K_MUTE       &trans                &trans                &trans        &kp LG(LC(X))
+&trans  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans    &trans  &kp K_MUTE       &trans                &trans                &studio_unlock  &kp LG(LC(X))
                                      &trans     &trans          &trans    &none   &trans           &trans
             >;
         };
