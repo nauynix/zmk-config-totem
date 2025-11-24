@@ -29,7 +29,15 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        center_bootloader {
+            bindings = <&bootloader>;
+            key-positions = <20 31>;
+            layers = <1>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -79,10 +87,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-        &trans         &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)   &trans    &trans  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))  &bt BT_SEL 0
-        &trans         &kp LEFT      &kp DOWN   &kp RIGHT       &trans    &trans  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))        &bt BT_SEL 1
-&trans  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans    &trans  &kp K_MUTE       &trans                &trans                &trans        &kp LG(LC(X))
-                                     &trans     &trans          &trans    &none   &trans           &trans
+             &trans         &kp LA(LEFT)  &kp UP     &kp LA(RIGHT)   &trans    &trans  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_INC  &kp LG(LS(NUMBER_4))  &bt BT_SEL 0
+             &trans         &kp LEFT      &kp DOWN   &kp RIGHT       &trans    &trans  &kp C_VOL_DN     &kp C_BRI_DEC         &kp LG(LS(N5))        &bt BT_SEL 1
+&bootloader  &kp LG(SLASH)  &kp LG(B)     &kp LG(I)  &kp LG(PERIOD)  &trans    &trans  &kp K_MUTE       &trans                &trans                &trans        &bootloader
+                                          &trans     &trans          &trans    &none   &trans           &trans
             >;
         };
 
